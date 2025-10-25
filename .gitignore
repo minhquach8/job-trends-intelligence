@@ -1,0 +1,27 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Env & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Data artifacts
+data/models/
+data/processed/
